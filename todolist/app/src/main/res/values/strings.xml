@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">todolist</string>
+
+    <string name="total_task">%d tareas</string>
+    <string name="complete_task">%d completas</string>
+    <string name="uncomplete_task">%d incompletas</string>
+</resources>

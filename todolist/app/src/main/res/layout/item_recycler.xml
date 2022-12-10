@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <ImageView
+            android:id="@+id/icon_first"
+            android:layout_width="24dp"
+            android:src="@drawable/ic_incompleta"
+            android:scaleType="center"
+              android:layout_weight="1"
+                android:layout_marginTop="20dp"
+
+            android:layout_height="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_task"
+            android:layout_width="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="Ir al gym"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/btn_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+           android:layout_weight="0.5"
+            android:src="@drawable/ic_borrar"
+            />
+
+
+
+</LinearLayout>
